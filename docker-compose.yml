@@ -1,0 +1,8 @@
+version: '3'
+services:
+  bof:
+    build: chal/
+    ports:
+    - 4000:9999
+    ulimits:
+      nproc: 1024
