@@ -16,10 +16,16 @@ xinetd-wrapper
 2. 安裝 docker-compose
 https://docs.docker.com/compose/install/
 
-3. 將你的 python 程式碼放到 `chal/bin/` 並且命名為 `serve.py`
+3. 把這個專案下載/clone 到自己的電腦
+- 下載
+![](https://github.com/racterub/xinetd-wrapper/blob/master/download.png)
+- clone
+`git clone https://github.com/racterub/xined-wrapper`
 
-4. 執行 `docker-compose up -d`
+4. 將你的 python 程式碼放到 `chal/bin/` 並且命名為 `serve.py`
 
-5. 結素
+5. 執行 `docker-compose up -d`
+
+6. 結素
 結果應該長這樣
 ![](https://github.com/racterub/xinetd-wrapper/blob/master/screenshot.png)
