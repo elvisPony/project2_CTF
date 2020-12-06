@@ -10,6 +10,7 @@ s.listen(60)
 # SOCKET END
 
 flag = "flag{Str_C8763}"
+test = "flag{Str_C8763}"
 
 def dosort():
     arr = [randint(1, 100) for _ in range(6)]
@@ -32,7 +33,7 @@ while True:
                 conn.sendall(errormessage.encode())
                 conn.close()
 
-        conn.sendall(flag.encode())
+        conn.sendall(test.encode())
         conn.close()
     except socket.error:
         print("ERROR")
