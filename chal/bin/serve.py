@@ -21,7 +21,7 @@ errormessage ="Error"
 while True:
     conn, addr = s.accept()
     try:
-        for _ in range(1000):
+        for _ in range(1):
             q, a = dosort()
             ans = '['+', '.join([str(i) for i in a])+']'
             #print(ans)
