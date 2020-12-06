@@ -9,7 +9,7 @@ s.listen(60)
 #print('socket start')
 # SOCKET END
 
-flag = "flag{C8763}"
+flag = "flag{Str_C8763}"
 
 def dosort():
     arr = [randint(1, 100) for _ in range(6)]
