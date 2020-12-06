@@ -4,9 +4,9 @@ from random import randint
 # SOCKET START
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(( "localhost", 4000))
+s.bind(( "0.0.0.0", 4000))
 s.listen(60)
-print('socket start')
+#print('socket start')
 # SOCKET END
 
 flag = "flag{Str_C8763}"
