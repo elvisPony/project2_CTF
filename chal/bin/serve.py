@@ -1,4 +1,4 @@
-import socket
+'''import socket
 from random import randint
 
 # SOCKET START
@@ -37,4 +37,5 @@ while True:
         conn.close()
     except socket.error:
         print("ERROR")
-        conn.close()
+        conn.close()'''
+        
