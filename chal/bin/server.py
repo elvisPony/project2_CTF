@@ -27,6 +27,9 @@ while True:
         if (data != flag):
             conn.sendall(errormessage.encode())
             conn.close()
+        else:
+            conn.sendall(flag.encode())
+            conn.close()
             
     except socket.error:
         print("socket error")
